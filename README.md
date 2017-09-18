@@ -1,5 +1,7 @@
 # TestO
-TestO is library for testing Java classes
+TestO is library for testing Java classes.
+
+Java version required: 1.8+.
 
 TestO is a tool that replacements `JUnit` to make it much easier to test your own Java classes.
 Now the testing is very simple. Just write your code like in exampes and if it will be wrong an `AssertionError` will be thrown.
