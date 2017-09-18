@@ -14,7 +14,7 @@ public class NumberTest {
 		new TNumber(new Integer(2)).notNull().eq(2);
 		
 		Integer a = 123;
-		new TNumber(a).eq(new Integer(123));
+		new TNumber(a).notNull().eq(new Integer(123));
 		new TObject(a).notSame(new Integer(123));
 		
 

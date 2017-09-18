@@ -53,7 +53,7 @@ public class CollectionTest {
 		new TArray<String>("a","b","c").eq("a","b","c").eqSize(3);
 		Integer[] arr2 = new TArray<Integer>(1,2,3).eq(1,2,3).eqSize(3).get();
 		
-		new TArray<Long>(1L,2L,3L).eq(1L,2L,3L).eqSize(3);
+		new TArray<Long>(1L,2L,3L).notNull().notEmpty().eq(1L,2L,3L).eqSize(3);
 		new TArray<String>("a","b","c").eq(Arrays.asList("a","b","c")).eqSize(3);
 	}
 
